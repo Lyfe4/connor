@@ -60,7 +60,7 @@ const UnitsList = ({ tierLevel, tierTheme }) => {
   ];
   
   // Quiz questions for Tier 3
-  const [quizQuestions, setQuizQuestions] = useState([
+  const [quizQuestions] = useState([
     { 
       question: "What literary device involves a comparison using 'like' or 'as'?", 
       options: ["Metaphor", "Simile", "Personification", "Alliteration"], 
@@ -79,7 +79,7 @@ const UnitsList = ({ tierLevel, tierTheme }) => {
   ]);
   
   // More advanced quiz questions for Tier 4
-  const [tier4QuizQuestions, setTier4QuizQuestions] = useState([
+  const [tier4QuizQuestions] = useState([
     { 
       question: "Which of the following research methods would be most appropriate for studying cultural practices within a specific community over an extended period?", 
       options: ["Survey research", "Experimental design", "Ethnography", "Meta-analysis"], 
